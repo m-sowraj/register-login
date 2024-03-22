@@ -1,0 +1,65 @@
+/* register.css */
+body{
+    background-color: #000000;
+    background-image: url('registerbg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+.container {
+    margin-top: 200px;
+}
+
+.container > div {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff68;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #050202;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #060a01;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(100% - 40px);
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #16283a;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b0339f;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

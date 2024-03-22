@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="login">
+                    <h1 class="text-center">LogIn</h1>
+                    <div>
+                        <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Email" required="required" />
+                        <input type="password" name="password" id="password" class="form-control mb-3" placeholder="Password" required="required" />
+                        <button onclick="login()" class="btn btn-primary btn-block">LOG IN</button>
+                        <p>Don't have an account? <a href="register.html">Register</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/login.js"></script>
+</body>
+</html>
